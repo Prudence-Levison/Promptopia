@@ -1,12 +1,12 @@
 import '@styles/global.css';
-import { Children } from 'react';
+
 
 export const  metadata ={
 title: 'promptopia',
 description: 'Discover & share AI prompt'
 }
 
-const RootLayout = () => {
+const RootLayout = ( {children}) => {
   return (
     <html lang='en'>
       <body>

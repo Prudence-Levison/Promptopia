@@ -30,6 +30,7 @@ const Navbar = () => {
                className="outline_btn">
                 Sign Out
                </button>
+               <Link ></Link>
 
             </div>
         ) : <div></div>}

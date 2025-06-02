@@ -3,7 +3,7 @@
 import Link from "next/link";
 import Image from "next/image" ;
 import { useEffect, useState } from "react";
-import { signIn, signOut, useSession , getProviders} from 'next-auth/react'
+// import { signIn, signOut, useSession , getProviders} from 'next-auth/react'
 const Navbar = () => {
     const isUserLoggedIn = true;
 
@@ -39,7 +39,7 @@ const Navbar = () => {
                </Link>
 
                <button type="button"
-               onClick={signOut}
+            //    onClick={signOut}
                className="outline_btn">
                 Sign Out
                </button>
